@@ -1,3 +1,22 @@
+#Calculadora Simples
+a = int(input('Selecione um primeiro valor: '))
+b = int(input('Selecione um segundo valor: '))
+escolha = str(input('Escolha uma operação: '))
+if escolha == 'soma':
+    soma = a + b
+    print('O resultado da soma é {}'.format(soma))
+elif escolha == 'subtração':
+    subtracao = a - b
+    print('O resultado da subtração é {}'.format(subtracao))
+elif escolha == 'multiplicação':
+    multi = a * b
+    print('O resultado da multiplicação é {} '.format(multi))
+elif escolha == 'divisão':
+    div = a / b
+    print('O resultado da multiplicação é {} '.format(div))
+else:
+    print('Escolha uma operação válida!')
+    
 MIT License
 
 Copyright (c) 2022 César Costa Pessoa
